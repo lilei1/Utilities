@@ -14,4 +14,4 @@ module load bamtools
 SAMPLE_LIST="/panfs/roc/groups/9/morrellp/pmorrell/Workshop/Merge/Barke_list.txt"
 SAMPLE="Barke_finished.bam"
 
-bamtools -list ${SAMPLE_LIST} -out ${SAMPLE}
+bamtools merge -list ${SAMPLE_LIST} -out ${SAMPLE}
